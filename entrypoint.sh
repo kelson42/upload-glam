@@ -9,3 +9,5 @@ else
 	sed -i 's%auth_basic "Restricted";% %g' /etc/nginx/conf.d/default.conf
 	sed -i 's%auth_basic_user_file htpasswd;% %g' /etc/nginx/conf.d/default.conf
 fi
+
+chown -R www-data:www-data /media
