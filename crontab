@@ -1,0 +1,3 @@
+* * * * * find /media/ -name '*.*' -mtime +90 -exec rm {} \;
+
+
